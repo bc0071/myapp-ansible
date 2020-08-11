@@ -1,5 +1,5 @@
 ---
-- hosts: webservers 
+- hosts: jennode3 
   become: True
   tasks:
     - name: Install packages
